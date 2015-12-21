@@ -1,7 +1,6 @@
 function solution(A, B, K) {
     // write your code in JavaScript (Node.js 4.0.0)
-    if(A % K===0 && B % K===0) return Math.floor((B-A)/K)+1;
-    if(A % K===0 && B % K!==0) return Math.floor((B-A)/K)+1;
-    if(A % K!==0 && B % K===0) return Math.floor((B-A)/K)+1;
-    if(A % K!==0 && B % K!==0) return Math.floor((B-A)/K);
+    var lower = A % K == 0 ? Math.floor( A / K) -1 :  Math.floor(A / K);
+    var upper =  Math.floor( B / K );
+    return upper - lower;
 }
