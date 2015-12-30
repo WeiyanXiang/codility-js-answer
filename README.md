@@ -1,2 +1,4 @@
-# codility-js-answer
-codility js answer, update one question per day from today on. All answers would be 100%.
+# Codility Lesson Answers in **JavaScript**
+All answers scored 100%.
+All Codility **JavaScript** answers (starting from all painless questions), keep updating. — Edit
+
